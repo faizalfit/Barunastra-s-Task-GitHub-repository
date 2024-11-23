@@ -6,10 +6,10 @@
 
 ## Electrical Diagram
 
-![Electrical Diagram](Images/electrical.png)
+![Electrical Diagram](images/electrical.png)
 
 ## Communication Diagram
-![Communication Diagram](Images/eommunication.png)
+![Communication Diagram](images/eommunication.png)
 
 ### 1. Battery (12V)
 Sebagai sumber daya utama yang menyediakan listrik untuk seluruh sistem.
