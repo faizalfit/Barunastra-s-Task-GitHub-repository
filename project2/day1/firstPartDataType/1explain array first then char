@@ -1,0 +1,17 @@
+> Penjelasan Tentang Array
+Array adalah struktur data yang dapat menyimpan beberapa nilai dengan tipe data yang sama di dalam satu variabel. Elemen dalam array diakses menggunakan indeks yang mana indeks pertamanya dimulai dari 0, 1, 2, 3, 4, dan seterusnya.
+
+> Contoh Implementasi Array
+Array dapat diimplementasikan untuk menyimpan nilai beberapa mahasiswa.
+
+> Kesulitan Tentang Array
+Ukuran array tetap, sehingga array tidak fleksibel untuk bertambah atau berkurang ukurannya. Selain itu karena indeks dimulai dari 0, maka terkadang bingung.
+
+> Penjelasan Tentang Char
+Char adalah tipe data dalam bahasa pemrograman C yang digunakan untuk menyimpan satu karakter, seperti huruf, angka, atau simbol. Char juga sering digunakan dalam array untuk membentuk kata atau kalimat (string). Dengan array char, kita bisa menyimpan dan mengolah teks seperti nama, kalimat, atau paragraf.
+
+> Contoh Implementasi Char
+Tipedata char dapat digunakan untuk menyimpan indeks nilai mahasiswa berupa huruf A hingga E.
+
+> Kesulitan Tentang Char
+Sulit membedakan antara char dan char array. 
