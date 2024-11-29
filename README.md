@@ -1,8 +1,35 @@
-# Electrical Task 1 Submission ERC FERC Diagrams
-
 | Nama  | Division        | Sub-Division  |
 | ----- | ---------- | ---------- |
 | Faizal Fitrohni   | ELC | Microcontroller |
+
+# Electrical Task 3 Submission PCB Revisions
+## Schematics Design
+Ini adalah gambar desain schematic untuk boost converter dengan menggunakan IC LM2577.
+![Schematics](images/schematics.png)
+- Di sini saya __menggunakan typical application__ yang ada pada datasheet LM2577. 
+- Pada desain boost converter ini saya juga __menggunakan dioda 1N5821__.
+- Saya juga __menggunakan potensiometer (RV1)__ untuk mengatur rasio tegangan output dengan tegangan input.
+
+Berikut adalah footprint yang saya gunakan
+![footprint](images/footprint.png)
+
+## PCB Design
+Ini adalah gambar desain pcb boost converter saya.
+![PCB](images/pcb.png)
+- Saya __menggunakan ground plane__ pada layer back (warna biru) untuk mengurangi _Electromagnetic Interference_ (EMI) yang disebabkan oleh routing ground.
+- Saya menggunakan __track dengan lebar 0.7mm__ untuk mengakomodasi power yang tinggi.
+- Saya juga menggunakan vias dengan __via diameter 0,8mm__ dan __via hole 0,5mm__ yang menghubungkan komponen SMD dengan ground plane.
+- Di sini saya mengusahakan agar induktor dekat dengan IC LM2577 agar loop yang terbentuk kecil. Selain itu, resistor feedback saya jauhkan dengan induktor agar _Electromagnetic Interference_ induktor tidak mengganggu resistor.
+
+Berikut adalah hasil DRC PCB saya
+![DRC](images/DRC.png)
+
+## 3D Model
+Berikut adalah 3d Model PCB boost converter saya
+![3Dmodel](images/3Dmodel.png)
+
+
+# Electrical Task 1 Submission ERC FERC Diagrams
 
 ## Electrical Diagram
 
